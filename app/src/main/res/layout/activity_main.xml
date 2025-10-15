@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="flip_screen_manager\n此应用用来让手机内外屏同时显示\n支持自带外屏和自定义壁纸"
+        android:textSize="20sp"
+        android:layout_marginBottom="24dp"/>
+    <Button
+        android:id="@+id/btn_create_external_window"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="创建外屏窗口"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:id="@+id/btn_create_wallpaper_window"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="创建壁纸窗口"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:id="@+id/btn_remove_external_window"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="移除外屏窗口"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注意：此应用自动隐藏后台，首次使用请打开最近任务并上锁程序，同时允许本程序的后台行为，并将省电策略设为不限制，将通知权限打开"
+        android:textSize="20sp"
+        android:layout_marginBottom="24dp"/>
+
+</LinearLayout>
