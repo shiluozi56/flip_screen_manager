@@ -3,10 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/flipscreenmanager/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.18" />
+        <entry key="..\:/AndroidStudioProjects/flipscreenmanager/app/src/main/res/drawable/ic_launcher_background.xml" value="0.18" />
         <entry key="..\:/AndroidStudioProjects/flipscreenmanager/app/src/main/res/layout/activity_main.xml" value="0.13229166666666667" />
         <entry key="..\:/AndroidStudioProjects/flipscreenmanager/app/src/main/res/layout/activity_main2.xml" value="0.176" />
         <entry key="..\:/AndroidStudioProjects/flipscreenmanager/app/src/main/res/layout/external_screen.xml" value="0.16979166666666667" />
-        <entry key="..\:/AndroidStudioProjects/flipscreenmanager/app/src/main/res/layout/external_wallpaper_layout.xml" value="0.1890625" />
+        <entry key="..\:/AndroidStudioProjects/flipscreenmanager/app/src/main/res/layout/external_wallpaper_layout.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/flipscreenmanager/app/src/main/res/layout/external_wallpaper_layout_notouch.xml" value="0.1328125" />
         <entry key="..\:/AndroidStudioProjects/flipscreenmanager/app/src/main/res/layout/external_window_layout.xml" value="0.14791666666666667" />
         <entry key="..\:/AndroidStudioProjects/flipscreenmanager/app/src/main/res/layout/presentation_second.xml" value="0.17291666666666666" />
       </map>

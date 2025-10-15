@@ -19,10 +19,24 @@
         android:textSize="18sp"
         android:layout_marginBottom="20dp"/>
     <Button
+        android:id="@+id/btn_create_external_window_notouch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="创建窗口(无触摸)"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"/>
+    <Button
         android:id="@+id/btn_create_wallpaper_window"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="创建壁纸窗口"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:id="@+id/btn_choose_wallpaper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择壁纸"
         android:textSize="18sp"
         android:layout_marginBottom="20dp"/>
     <Button
@@ -35,7 +49,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="注意：此应用自动隐藏后台，首次使用请打开最近任务并上锁程序，同时允许本程序的后台行为，并将省电策略设为不限制，将通知权限打开"
-        android:textSize="20sp"
+        android:textSize="16sp"
         android:layout_marginBottom="24dp"/>
+    <ImageView
+        android:id="@+id/im_choose"
+        android:layout_below="@+id/btn_open_gallery"
+        android:scaleType="centerCrop"
+        android:background="#5C0093BF"
+        android:layout_width="100dp"
+        android:layout_height="188dp">
+    </ImageView>
 
 </LinearLayout>

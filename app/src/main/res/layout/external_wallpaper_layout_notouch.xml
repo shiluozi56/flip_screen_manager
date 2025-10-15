@@ -7,18 +7,11 @@
     android:background="#FFFFFF">
 
     <ImageView
-        android:id="@+id/im_wallpaper"
+        android:src="@drawable/img_1"
         android:scaleType="centerCrop"
         android:background="#FFFF1F"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-<!--    <ImageView-->
-<!--        android:id="@+id/im_wallpaper"-->
-<!--        android:src="@drawable/img_1"-->
-<!--        android:scaleType="centerCrop"-->
-<!--        android:background="#FFFF1F"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent">-->
 
     </ImageView>
 
